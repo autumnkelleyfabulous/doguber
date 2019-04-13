@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css" media="screen" title="no title" charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300italic,regular,italic,500,500italic,600%7CRoboto:300,300italic,regular,italic,500,500italic,700,700italic,900">
+  <title>WOOF!</title>
+</head>
+
+<body>
+  {{!-- <div data-collapse="medium" data-animation="default" data-duration="400" id="Top" class="navbar-2 w-nav">
+        <div class="content-wrapper w-container"><a href="/" class="brand w-nav-brand w--current"><img src="/"
+                    width="121.5" alt=""></a>
+            <div class="menu-button w-nav-button w--open">
+                <div class="icon w-icon-nav-menu"></div>
+            </div>
+            <nav role="navigation" class="nav-menu-2 w-nav-menu">
+                <a href="/" class="nav-link w-nav-link w--current w--nav-link-open"
+                    style="max-width: 1265px;">Home</a><a href="#" class="nav-link w-nav-link w--nav-link-open"
+                    style="max-width: 1265px;">Ride/a><a href="/projects"
+                    class="nav-link w-nav-link w--nav-link-open" style="max-width: 1265px;">Drive</a><a href="#"
+                    class="nav-link w-nav-link w--nav-link-open" style="max-width: 1265px;">Login</a></nav>
+            <div class="menu-button w-nav-button">
+                <div class="icon w-icon-nav-menu">
+                    <div class="w-nav-overlay" data-wf-ignore=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div> --}}
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="#">
+      <img src="./public/assets/img/header.png" a class="navbar-brand" a href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+
+        <a class="nav-item nav-link active" href="form.html">Ride<span class="sr-only">(current)</span></a>
+
+        <a class="nav-item nav-link" href="#">Drive</a>
+        <a class="nav-item nav-link" href="#">Login</a>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="logo"><a href="/"> <img src="./public/assets/img/A.jpg" class="_1Ujpdt"><svg fill="currentColor"
+        preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 72 50" class="_2tMSHu _1b2na0"
+        style="vertical-align:middle">
+      </svg></a></div>
+  <button aria-label="open-mobile-nav" type="button" class="_3l1y2L"><svg fill="currentColor"
+      preserveAspectRatio="xMidYMid meet" height="1.5rem" width="1.5rem" viewBox="0 0 24 24" class="_2DBxlm"
+      style="vertical-align:middle;color:blue">
+      <g>
+        <path d="M2 4h20v2H2V4zm0 7h20v2H2v-2zm0 7h20v2H2v-2z"></path>
+      </g>
+    </svg></button>
+
+  <div class="video">
+    <button class="gDf0uC" type="button" data-e2e="watch-button">
+      <svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="40" width="40" viewBox="0 0 500 500"
+        class="_3x_BJI" style="vertical-align: middle;">
+      </svg>WATCH OUR STORY</button>
+    <div class="_2qbzWR">
+      <div class="F5PFl0"
+        style="background: url(&quot;//images.ctfassets.net/oqn5qhpsy9i3/5WsbbyGkOyIx7acqp3sZzN/9c5f2b3b0a9f9c14a5aeb5fb94d26540/previewMobile.jpg&quot;) center center / cover no-repeat;">
+        <video autoplay="" loop="" playsinline="" data-object-fit="cover" class="_2O3nGn">
+          <source
+            src="//videos.ctfassets.net/oqn5qhpsy9i3/4LypTYVmrxLn9Vb9STV3Dk/25ca5ef44ed32fdf87fd8670b160eb03/desktop4.mp4"
+            type="video/mp4"></video>
+      </div>
+    </div>
+  </div>
+  {{!-- <button type="button" class="_2ruFd_ _1qRMXN CC0t0a _3z7LES _3b6Vkl _2EH-9K" data-e2e="driver-button">APPLY TO
+    DRIVE</button>
+  <div id="home">
+    <div class="container"> --}}
+
+      <div class="row">
+        <div class="col-8 offset-2">
+          <h1>{{msg}}</h1>
+          <h2>Everywhere Your Dog Wants To BE</h2>
+          {{!-- <form class="clearfix mb-4" action="POST">
+            <div class="form-group">
+              <form action="/dogs" method="POST">
+                <input type="text" id="name" name="dog_name" placeholder="Let's Ride">
+                <button type="submit" class="addRideButton">Let's Ride</button>
+              </form>
+            </div> --}}
+        </div>
+        <button type="button" class="location button" data-e2e="driver-button">Where Are We Going?</button>
+        <div>
+          <div class="google map"><img data-e2e="homepage-image"
+                    src="//images.ctfassets.net/oqn5qhpsy9i3/6AIwJ8YmNqkooaswSaCyge/603c7dde0af5066ef7fa991352f43bd1/HP_car2.png?h=400"
+                    alt=" google map" class="/"></div>
+              </div>
+                  <div class="_1-nG3k" data-e2e="homepage-form"></div>
+                      <form>
+                          <div class="location-form"><input class="form" data-e2e="location-input"
+                              placeholder="Enter location" minlength="10" required="" name="phone" type="tel"
+                              value=""></div>
+                          {{!-- <div class="_3ktJWF fzEL0d _29yR8i _2nWsNB"><label class="_1uRewR _15Xoeu _1xOcLO" for="tos">
+                              <div class="_3yRYQA" style="width: 34px; height: 34px;"><svg fill="currentColor"
+                                  preserveAspectRatio="xMidYMid meet" height="17px" width="17px" viewBox="0 0 500 500"
+                                  class="_3TbDet" style="vertical-align: middle;">
+                                
+                                </svg></div> --}}
+                              <div class="dQqy5A">
+                                <p>I agree to Dog Uber's Services <a
+                                    href="https://s3.amazonaws.com/api.lyft.com/static/terms.html">Terms of Service</a>
+                                </p>
+                              </div><input id="tos" class="_2HCB4O" required="" name="tos" type="checkbox" value="">
+                            </label></div>
+                        </div>
+                        <div class="_2A-Wi2 _2-WgW1">
+                          <div class="fzEL0d _1cq_mV AyubCV"><button type="submit"
+                              class="_2ruFd_ _1qRMXN CC0t0a _3z7LES _3b6Vkl _2v58H6" data-e2e="submit-button">APPLY TO
+                              DRIVE</button><button data-e2e="sign-up" type="button" class="_19eZXL">SIGN UP TO
+                              RIDE</button></div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+          </section>
+        </div>
+
+   
+
+
+        {{!-- 
+<footer>
+        <div class="fzEL0d _2YjQ0N _2auEmD _3Mislp">
+          <div>
+            <ul class="_27lUK7 _1IAyRk">
+              <li class="N4VXJY"><a href="/terms">Terms</a></li>
+              <li class="N4VXJY"><a href="/privacy">Privacy</a></li>
+              <li class="N4VXJY">© 2019 Lyft, Inc.</li>
+              <li class="N4VXJY">CPUC ID No. TCP0032513-P</li>
+            </ul>
+            <ul class="_2wyCC_">
+              <li class="_3viSbV _1IAyRk"><a href="https://twitter.com/lyft"><svg fill="currentColor"
+                    preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 500 500"
+                    style="vertical-align:middle">
+                    <g>
+                      <path
+                        d="M500 102.05c-18.397 7.81-38.165 13.09-58.918 15.463 21.18-12.153 37.447-31.4 45.104-54.331-19.82 11.254-41.771 19.426-65.14 23.83C402.337 67.928 375.677 56 346.173 56c-56.655 0-102.584 43.97-102.584 98.202 0 7.698.907 15.192 2.655 22.379-85.253-4.095-160.84-43.192-211.434-102.605-8.83 14.504-13.888 31.373-13.888 49.37 0 34.07 18.11 64.129 45.634 81.74-16.815-.509-32.633-4.928-46.463-12.283-.007.41-.009.82-.009 1.234 0 47.58 35.36 87.273 82.287 96.295a107.1 107.1 0 0 1-27.025 3.442c-6.612 0-13.037-.615-19.3-1.761 13.054 39.016 50.938 67.407 95.826 68.202-35.11 26.338-79.34 42.036-127.4 42.036-8.28 0-16.446-.464-24.471-1.37C45.399 428.742 99.318 445 157.248 445c188.685 0 291.863-149.638 291.863-279.41 0-4.259-.1-8.494-.296-12.705 20.04-13.846 37.432-31.142 51.185-50.836">
+                      </path>
+                    </g>
+                  </svg></a></li>
+              <li class="_3viSbV _1IAyRk"><a href="https://www.facebook.com/lyft"><svg fill="currentColor"
+                    preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 500 500"
+                    style="vertical-align:middle">
+                    <g>
+                      <path
+                        d="M358.342 266.91L376 189.054h-94.645v-64.206c0-25.4 12.322-42.908 48.504-42.908L376 81.92V3.454C368.017 2.387 340.628 0 308.762 0c-66.527 0-105.584 39.771-105.584 114.851v74.203H125v77.856l78.178-.995V500h78.177V266.91h76.987z">
+                      </path>
+                    </g>
+                  </svg></a></li>
+              <li class="_3viSbV _1IAyRk"><a href="https://www.instagram.com/lyft"><svg fill="currentColor"
+                    preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 500 500"
+                    style="vertical-align:middle">
+                    <g>
+                      <path
+                        d="M48.193 365.845c0 47.147 37.752 85.367 84.321 85.367h234.972c46.574 0 84.321-38.216 84.321-85.367v-231.69c0-47.147-37.752-85.367-84.321-85.367H132.514c-46.574 0-84.321 38.216-84.321 85.367v231.69zM132.514 0h234.972C440.67 0 500 60.063 500 134.155v231.69C500 439.937 440.68 500 367.486 500H132.514C59.33 500 0 439.937 0 365.845v-231.69C0 60.063 59.32 0 132.514 0zm253.028 250.037c0-74.098-59.336-134.166-132.53-134.166s-132.53 60.068-132.53 134.166 59.336 134.166 132.53 134.166 132.53-60.068 132.53-134.166zm-216.867 0c0-47.153 37.759-85.378 84.337-85.378s84.337 38.225 84.337 85.378-37.759 85.379-84.337 85.379-84.337-38.226-84.337-85.379zm216.867-103.674c16.635 0 30.12-13.652 30.12-30.492 0-16.84-13.485-30.492-30.12-30.492s-30.12 13.651-30.12 30.492c0 16.84 13.485 30.492 30.12 30.492z">
+                      </path>
+                    </g>
+                  </svg></a></li>
+            </ul>
+          </div>
+          <ul class="J-VrJA">
+            <li class="N4VXJY"><a href="/terms">Terms</a></li>
+            <li class="N4VXJY"><a href="/privacy">Privacy</a></li>
+            <li class="N4VXJY">© 2019 Lyft, Inc.</li>
+            <li class="N4VXJY">CPUC ID No. TCP0032513-P</li>
+          </ul>
+        </div>
+        </footer> --}}
+        {{{body}}}
+</body>
+
+</html>
